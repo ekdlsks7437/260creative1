@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Product Sans Regular', 'Arial Verdana';
+  text-decoration-line: none;
+  letter-spacing: 0.5px;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+   font-family: 'Birthstone', cursive;
+   font-size: 300%;
+   background-color: 	#DCDCDC;
+}
+#carouselExampleControls{
+  width: 50% !important;
+  margin-left: 25%;
+  margin-bottom: 2% !important;
+}
+
+.carousel-item img{
+  height: 400px;
+}
+
+.card img {
+  height: 250px;
+}
+
+.card {
+  background-color: #e5e4e2;
+}
+
+.row {
+  margin-bottom: 2%;
+}
+
+.card-title{
+  font-family: 'Birthstone', cursive;
+  font-size: 175%;
+}
+
+.card-text{
+  font-family: 'Birthstone', cursive;
+  font-size: 150%;
+}
+
+.footer {
+  background-color: #236F21;
+  height: 180px;
+  display: block;
+}
+
+.footer .footer-title {
+  display: block;
+  max-width: 100%;
+  text-align: center;
+  padding: 67px 0;
+}
+
+.footer .footer-title h2 {
+  max-width: 100%;
+  color: #fff;
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  .card img {
+     height: 100px;
+  }
+
+  .carousel-item img{
+    height: 200px;
+  }
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+  .card img {
+     height: 150px;
+  }
+
+  .carousel-item img{
+    height: 300px;
+  }
+
+}
